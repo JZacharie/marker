@@ -2,6 +2,7 @@ import asyncio
 import traceback
 import click
 import os
+from typing import Optional
 from pydantic import BaseModel, Field
 from starlette.responses import HTMLResponse
 from marker.config.parser import ConfigParser
